@@ -3,6 +3,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="public/main.css">
+        <link rel="stylesheet" href="public/font.css">
 
         <link rel="icon" type="image/x-icon" href="public/icons/favico.ico"/>
         
@@ -31,14 +32,13 @@
     <body>
 
         <div class="background-top"><img src="public/images/Destra.png"></div>
-        <div class="background-bottom"><img src="public/images/Sinistra.png"></div>
 
-        <div class="central corsivo title">Irene e Matteo</div>
-        <div class="central bellefair top-margin">23 Giugno 2024</div>
-        <div class="central corsivo top-margin" onclick="click_me()">Lista Viaggio</div>
+        <div class="central corsivo" style="font-size: 8em;">Irene e Matteo</div>
+        <div class="central bellefair top-margin" style="font-size: 2em;">23 Giugno 2024</div>
+        <div class="central corsivo top-margin" onclick="click_me()" style="font-size: 4em;">Lista Viaggio</div>
 
         <div class="central bellefair spoiler">
-            <div id="lista">
+            <div id="lista" style="font-size: 1.6em;">
                 La vostra presenza sarà per noi il dono più gradito,
                 se voleste contribuire alla realizzazione
                 del nostro viaggio nozze in Giappone e Corea del Sud.
@@ -48,6 +48,8 @@
                 IBAN    IT79K0306953240100000090164
             </div>
         </div>
+
+        <div style="width: 100%; margin-top: -400px; z-index: -1;"><div class="background-bottom"><img src="public/images/Sinistra.png"></div></div>
 
     </body>
 </html>

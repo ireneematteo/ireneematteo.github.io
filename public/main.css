@@ -10,22 +10,18 @@ body {
     justify-content: flex-start;
 }
 
-.bellefair {
-    font-family: "Bellefair", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2em;
-}
+.background-top {
+    max-width: 50%;
+    height: 600px;
 
-.corsivo {
-    font-family: "Herr Von Muellerhoff", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 4em;
-}
+    position: absolute;
+    right: 0;
+    top: 0;
 
-.title {
-    font-size: 8em;
+    display: flex;
+    justify-content: flex-end;
+
+    z-index: -1;
 }
 
 .central {
@@ -54,33 +50,12 @@ body {
     padding-top: 100px;
 }
 
-.background-top {
-    width: 50%;
-    height: 600px;
-
-    position: absolute;
-    right: 0;
-    top: 0;
-
-    display: flex;
-    justify-content: flex-end;
-
-    z-index: -1;
-}
-
 .background-bottom {
-    border: 1px solid black;
-    width: 50%;
+    max-width: 50%;
     height: 600px;
 
-    position: absolute;
+    position: relative;
     left: 0;
-    top: 300px;
-
-    display: flex;
-    justify-content: flex-start;
-
-    z-index: -1;
 }
 
 .background-top > img{
