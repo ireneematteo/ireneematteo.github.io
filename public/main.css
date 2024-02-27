@@ -49,19 +49,3 @@ body {
 .top-margin {
     padding-top: 150px;
 }
-
-.background-bottom {
-    max-width: 50%;
-    height: 600px;
-
-    position: relative;
-    left: 0;
-}
-
-.background-top > img{
-    height: 100%;
-}
-
-.background-bottom > img{
-    height: 100%;
-}
