@@ -49,3 +49,7 @@ body {
 .top-margin {
     padding-top: 150px;
 }
+
+#bottone-lista-viaggio:hover {
+    cursor: pointer;
+}
