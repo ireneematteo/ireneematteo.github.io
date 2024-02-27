@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="public/main.css">
+
+        <link rel="icon" type="image/x-icon" href="public/icons/favico.ico"/>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Herr+Von+Muellerhoff&family=Meie+Script&display=swap" rel="stylesheet">
+        
+        <title>Irene e Matteo</title>
+
+        <script>
+            function click_me() {
+                current_state = document.getElementById("lista").style.visibility;
+                if (current_state != "hidden" && current_state != ""){
+                    document.getElementById("lista").style.opacity = 0;
+                    document.getElementById("lista").style.visibility = "hidden";
+                }
+                else {
+                    document.getElementById("lista").style.opacity = 1;
+                    document.getElementById("lista").style.visibility = "visible";
+                }
+            }
+        </script>
+
+    </head>
+
+    <body>
+
+        <div class="background-top"><img src="public/images/Destra.png"></div>
+        <div class="background-bottom"><img src="public/images/Sinistra.png"></div>
+
+        <div class="central corsivo title">Irene e Matteo</div>
+        <div class="central bellefair top-margin">23 Giugno 2024</div>
+        <div class="central corsivo top-margin" onclick="click_me()">Lista Viaggio</div>
+
+        <div class="central bellefair spoiler">
+            <div id="lista">
+                La vostra presenza sarà per noi il dono più gradito,
+                se voleste contribuire alla realizzazione
+                del nostro viaggio nozze in Giappone e Corea del Sud.
+                <br/><br/>
+                Matteo Agostinelli e Irene Bonapace
+                <br/>
+                IBAN    IT79K0306953240100000090164
+            </div>
+        </div>
+
+    </body>
+</html>
